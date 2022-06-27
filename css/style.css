@@ -1,6 +1,7 @@
 *{
 
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   
 }
 .container-fluid{
@@ -8,7 +9,10 @@
    
  }
 .nav-item{
-    padding: 0 14px;
+    padding: 0 ;
+}
+.hero{
+    background: rgba(76.9, 76.9, 76.9, 0.2)
 }
 .description{
     padding-top: 100px;
@@ -17,4 +21,7 @@
 .description h2{
     font-size: 3rem;
     
+}
+.icons{
+   padding: 0 6px;
 }
