@@ -1,7 +1,7 @@
 /* styles for desktop and laptop */
 *{
 
-    box-sizing: border-box;
+    box-sizing: border-box!important;
     /* font-family: 'Poppins', sans-serif; */
   
 }
@@ -13,7 +13,7 @@
     padding: 0 ;
 }
 .hero{
-    background: rgba(76.9, 76.9, 76.9, 0.2);
+    background: rgba(196, 196, 196, 0.35);
     padding-bottom: 50px;
 }
 .description{
@@ -44,21 +44,50 @@
 .features-header{
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 .features-header p{
 font-size: 20px;
+
+}
+.card{
+    background: rgb(255,182,193,0.3);
+    /* border-color:rgb(255,182,193,0.5) ; */
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+.card p{
+    /* padding-top: 20px; */
+    padding-bottom: 0;
+}
+.stars{
+    padding: 0;
+    margin: 0;
+    color: #E1E10d;
+    font-size: 20px;
 }
 
 
 
 
 @media screen and (max-width:600px){
-    .discount-box{
-        /* text-align: center; */
+    .discount-section{
+        padding-bottom: 40px;
     }
+   
     .fa-circle-arrow-up{
         top: 10%;
        
     }
-    
+    .features-header{
+        margin-bottom: 70px!important;
+    }
+    .card{
+        margin:10px  auto!important;
+    }
+    .row h5{
+        padding-left: 60px;
+    }
 }
