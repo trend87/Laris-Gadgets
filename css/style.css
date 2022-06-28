@@ -1,3 +1,4 @@
+/* styles for desktop and laptop */
 *{
 
     box-sizing: border-box;
@@ -29,15 +30,35 @@
 .discount-section{
     background-color: #f73d93 ;
     padding-bottom: 20px;
+    padding-left: 50px;
 }
-.discount-box{
-    
-}
+
 .discount-box h3{
     font-size:30px ;
 }
-/* .fa-circle-arrow-up{
+.fa-circle-arrow-up{
     position: relative;
     top: 30%;
-    left: 70%;
-} */
+    left: 60%;
+}
+.features-header{
+    text-align: center;
+    padding-top: 30px;
+}
+.features-header p{
+font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width:600px){
+    .discount-box{
+        /* text-align: center; */
+    }
+    .fa-circle-arrow-up{
+        top: 10%;
+       
+    }
+    
+}
