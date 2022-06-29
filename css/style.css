@@ -50,6 +50,12 @@
 font-size: 20px;
 
 }
+.discount-section-two{
+    background-color: #f73d93 ;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    /* height: 350px; */
+}
 .card{
     background: rgb(255,182,193,0.3);
     /* border-color:rgb(255,182,193,0.5) ; */
@@ -68,7 +74,16 @@ font-size: 20px;
     color: #E1E10d;
     font-size: 20px;
 }
+.engineering-section{
+    background: rgba(196, 196, 196, 0.35);
 
+}
+.eng-image{
+    padding:8px 12px;
+}
+.review-section{
+    background: rgba(22,0,59);
+}
 
 
 
