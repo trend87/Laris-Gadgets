@@ -76,6 +76,7 @@ font-size: 20px;
 }
 .engineering-section{
     background: rgba(196, 196, 196, 0.35);
+    padding-bottom: 50px;
 
 }
 .eng-image{
@@ -83,8 +84,16 @@ font-size: 20px;
 }
 .review-section{
     background: rgba(22,0,59);
+    padding-bottom: 150px;
 }
-
+.review-box{
+    padding-bottom: 20px;
+}
+.review-stars{
+    color: #E1E10d;
+    font-size: 30px;
+   
+}
 
 
 @media screen and (max-width:600px){
@@ -104,5 +113,8 @@ font-size: 20px;
     }
     .row h5{
         padding-left: 60px;
+    }
+    .review-box{
+        margin-top: 30px;
     }
 }
