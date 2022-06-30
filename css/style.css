@@ -101,6 +101,37 @@ font-size: 20px;
     margin: 10px;
 
 }
+.footer{
+    background: rgba(22,0,59);
+    color: white;
+    padding-top: 80px;
+    
+
+}
+.footer ul{
+    padding: 0;
+   margin-top: 30px;
+}
+.footer li{
+    list-style-type:none;
+    text-decoration: none;
+    margin-top: 20px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+   
+    
+}
+.footer p{
+    font-weight: lighter;
+    margin-top: 25px;
+}
+.footer-icons{
+    font-size: 20px;
+}
 
 
 @media screen and (max-width:600px){
@@ -127,5 +158,8 @@ font-size: 20px;
     .features-two{
         width: 100%;
     
+    }
+    .footer{
+        text-align: center;
     }
 }
