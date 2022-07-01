@@ -161,10 +161,6 @@ background-color: #0B001D;
 }
 
 @media screen and (max-width:600px){
-    .profile-pic{
-        height: 430px;
-        width: 430px;
-    }
     .discount-section{
         padding-bottom: 40px;
     }
