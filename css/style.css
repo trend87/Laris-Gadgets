@@ -2,9 +2,11 @@
 *{
 
     box-sizing: border-box!important;
-    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif;
   
 }
+
+
 .container-fluid{
     padding: 0 7%;
    
@@ -18,7 +20,6 @@
 }
 .description{
     padding-top: 100px;
-    /* padding-left: 15px; */
 }
 .description h2{
     font-size: 3rem;
@@ -36,7 +37,7 @@
 .discount-box h3{
     font-size:30px ;
 }
-.fa-circle-arrow-up{
+.arrow{
     position: relative;
     top: 30%;
     left: 60%;
@@ -54,18 +55,15 @@ font-size: 20px;
     background-color: #f73d93 ;
     padding-bottom: 20px;
     padding-left: 50px;
-    /* height: 350px; */
 }
 .card{
-    background: rgb(255,182,193,0.3);
-    /* border-color:rgb(255,182,193,0.5) ; */
+    background: rgba(255,182,193,0.3);
     border: none;
     border-radius: 0;
     padding: 0;
     margin: 0;
 }
 .card p{
-    /* padding-top: 20px; */
     padding-bottom: 0;
 }
 .stars{
@@ -88,6 +86,7 @@ font-size: 20px;
 }
 .review-box{
     padding-bottom: 20px;
+
 }
 .review-stars{
     color: #E1E10d;
@@ -95,7 +94,7 @@ font-size: 20px;
    
 }
 .features-two{
-    background-color: #ffb6c1;
+    background-color: rgba(255,182,193,0.3);
     width: 30%;
     padding-bottom: 20px;
     margin: 10px;
@@ -105,7 +104,8 @@ font-size: 20px;
     background: rgba(22,0,59);
     color: white;
     padding-top: 80px;
-    
+    width: 100%;
+    height: max-content;    
 
 }
 .footer ul{
@@ -130,17 +130,30 @@ font-size: 20px;
     margin-top: 25px;
 }
 .footer-icons{
-    font-size: 20px;
+    font-size: 30px;
+}
+.polygon{
+margin-top: 80px;
+clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+background-color: #0B001D;
+}
+.polygon p{
+    margin: 5px;
+    font-size: 13px;
 }
 
-
 @media screen and (max-width:600px){
+    .profile-pic{
+        height: 430px;
+        width: 430px;
+    }
     .discount-section{
         padding-bottom: 40px;
     }
    
-    .fa-circle-arrow-up{
+    .arrow{
         top: 10%;
+        left: 50%;
        
     }
     .features-header{
@@ -157,9 +170,19 @@ font-size: 20px;
     }
     .features-two{
         width: 100%;
+        margin: 10px auto;
+    
     
     }
     .footer{
         text-align: center;
+    }
+    .polygon{
+        clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    }
+    .polygon p{
+        margin: 5px;
+        padding: 5px;
+        font-size: 8px;
     }
 }
