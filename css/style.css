@@ -47,11 +47,6 @@ text-decoration: underline;
 .discount-box h3{
     font-size:30px ;
 }
-.arrow{
-    position: relative;
-    top: 30%;
-    left: 60%;
-}
 .features-header{
     text-align: center;
     padding-top: 30px;
@@ -72,6 +67,7 @@ font-size: 20px;
     border-radius: 0;
     padding: 0;
     margin: 0;
+    border-radius: 10px;
 }
 .card p{
     padding-bottom: 0;
@@ -90,13 +86,16 @@ font-size: 20px;
 .eng-image{
     padding:8px 12px;
 }
+.eng-image img{
+    border-radius: 10px;
+}
 .review-section{
     background: rgba(22,0,59);
     padding-bottom: 150px;
 }
 .review-box{
     padding-bottom: 20px;
-
+    border-radius: 10px;
 }
 .review-stars{
     color: #E1E10d;
@@ -108,6 +107,7 @@ font-size: 20px;
     width: 30%;
     padding-bottom: 20px;
     margin: 10px;
+    border-radius: 10px;
 
 }
 .footer{
@@ -168,21 +168,14 @@ background-color: #0B001D;
     .discount-section{
         padding-bottom: 40px;
     }
-   
-    .arrow{
-        top: 10%;
-        left: 50%;
-       
-    }
+
     .features-header{
         margin-bottom: 70px!important;
     }
     .card{
         margin:10px  auto!important;
     }
-    .row h5{
-        padding-left: 60px;
-    }
+    
     .review-box{
         margin-top: 30px;
     }
