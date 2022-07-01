@@ -5,6 +5,13 @@
     font-family: 'Poppins', sans-serif;
   
 }
+html{
+    scroll-behavior: smooth;
+}
+#products, #about, #services, #contact{
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    scroll-snap-type: y mandatory;}
 
 
 .container-fluid{
@@ -13,6 +20,9 @@
  }
 .nav-item{
     padding: 0 ;
+}
+.nav-link:hover{
+text-decoration: underline;
 }
 .hero{
     background: rgba(196, 196, 196, 0.35);
@@ -131,6 +141,14 @@ font-size: 20px;
 }
 .footer-icons{
     font-size: 30px;
+}
+.footer a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.fa-brands:hover{
+color: yellow;
+cursor: pointer;
 }
 .polygon{
 margin-top: 80px;
