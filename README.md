@@ -24,6 +24,10 @@ Use Fontawesome CDN Version 6.1.1
 
 [Osisanwo (Adebowale) Azeez](https://www.linkedin.com/in/osisanwo-azeez-617677a6/)
 
+## Contributor
+
+This project was built by [Effiong Israel Robert](https://github.com/trend87) 
+
 
 ## License & Copyright
 
