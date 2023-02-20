@@ -32,3 +32,10 @@ This project was built by [Effiong Israel Robert](https://github.com/trend87)
 ## License & Copyright
 
 &copy; All Rights Are Reserved By LARIS GADGETS, Designed By <strong>Osisanwo Azeez Adebowale </strong> & Developed By <strong>Israel Robert. </strong>
+
+
+## Figma UI Design
+
+Below is the figma UI design
+
+![UI design](images/laris.png)
